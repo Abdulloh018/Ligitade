@@ -538,9 +538,9 @@ video {
   }
 }
 
-@media (min-width: 976px) {
+@media (min-width: 977px) {
   .container {
-    max-width: 976px;
+    max-width: 977px;
   }
 }
 
@@ -583,10 +583,6 @@ video {
   display: flex;
 }
 
-.grid {
-  display: grid;
-}
-
 .hidden {
   display: none;
 }
@@ -607,24 +603,12 @@ video {
   width: 100%;
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-rows-1 {
-  grid-template-rows: repeat(1, minmax(0, 1fr));
-}
-
-.grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-}
-
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -639,16 +623,16 @@ video {
   justify-content: space-between;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-\[10px\] {
   gap: 10px;
 }
 
 .gap-\[20px\] {
   gap: 20px;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .rounded-\[10px\] {
@@ -770,19 +754,6 @@ video {
   padding-bottom: 30px;
 }
 
-.py-\[100px\] {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.pb-\[30px\] {
-  padding-bottom: 30px;
-}
-
-.pt-\[30px\] {
-  padding-top: 30px;
-}
-
 .pb-\[100px\] {
   padding-bottom: 100px;
 }
@@ -826,6 +797,16 @@ video {
   line-height: 65px;
 }
 
+.text-btnColor {
+  --tw-text-opacity: 1;
+  color: rgb(208 161 68 / var(--tw-text-opacity));
+}
+
+.text-cardTextColor {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
 .text-textColor {
   --tw-text-opacity: 1;
   color: rgb(37 43 66 / var(--tw-text-opacity));
@@ -834,21 +815,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-cardTextColor {
-  --tw-text-opacity: 1;
-  color: rgb(115 115 115 / var(--tw-text-opacity));
-}
-
-.text-\[\#D0A144\] {
-  --tw-text-opacity: 1;
-  color: rgb(208 161 68 / var(--tw-text-opacity));
-}
-
-.text-btnColor {
-  --tw-text-opacity: 1;
-  color: rgb(208 161 68 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -893,5 +859,15 @@ video {
 
   .mdb\:text-start {
     text-align: start;
+  }
+}
+
+@media (min-width: 977px) {
+  .lg\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .lg\:justify-normal {
+    justify-content: normal;
   }
 }
