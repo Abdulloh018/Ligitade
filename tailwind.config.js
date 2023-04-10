@@ -10,7 +10,20 @@ module.exports = {
     './src/pages/**/**/*.vue',
   ],
   theme: {
-    extend: {},
+    screens: {
+      sm: "480px",
+      md: "768px",
+      mdb: "879px",
+      lg: "976px",
+      xl: "1440px",
+    },
+    extend: {
+      colors: {
+        btnColor:"#D0A144",
+        textColor: "#252B42",
+        cardTextColor: "#737373"
+      },
+    },
   },
   plugins: [],
 }
