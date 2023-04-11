@@ -9,7 +9,7 @@
         </p>
       </div>
       <div class="flex justify-center px-6 max-w-sm:px-0">
-        <video controls src="" class="w-[877px] h-[442px]"></video>
+        <video controls loop src="@/assets/videos/video.mp4"></video>
       </div>
     </div>
   </section>
