@@ -18,6 +18,7 @@ export default {
 <style>
   header {
   background-image: url(@/assets/img/header-bg.png);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }

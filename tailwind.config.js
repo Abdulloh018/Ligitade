@@ -11,7 +11,9 @@ module.exports = {
   ],
   theme: {
     screens: {
+      maxwsm: "384px",
       sm: "480px",
+      maxwscreensm: "640px",
       md: "768px",
       mdb: "879px",
       lg: "977px",
@@ -21,7 +23,8 @@ module.exports = {
       colors: {
         orangeColor:"#D0A144",
         textColor: "#252B42",
-        cardTextColor: "#737373"
+        cardTextColor: "#737373",
+        linkColor: "#BDBDBD"
       },
     },
   },
