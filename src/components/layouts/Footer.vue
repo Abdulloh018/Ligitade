@@ -1,18 +1,18 @@
 <template>
   <footer id="footer" class="bg-textColor py-20">
-    <div class="container">
+    <div class="container px-6 max-w-sm:px-0">
       <div class="footer-title flex justify-between pb-16">
         <h2 class="text-2xl">Litigade</h2>
         <div class="flex gap-5">
-          <img src="@/assets/svg/Facebook.svg" alt="" />
-          <img src="@/assets/svg/Instagram.svg" alt="" />
-          <img src="@/assets/svg/Twitter.svg" alt="" />
-          <img src="@/assets/svg/Youtube.svg" alt="" />
+          <img src="@/assets/svg/Facebook.svg" alt="Social Icons" class="cursor-pointer" />
+          <img src="@/assets/svg/Instagram.svg" alt="Social Icons" class="cursor-pointer" />
+          <img src="@/assets/svg/Twitter.svg" alt="Social Icons" class="cursor-pointer" />
+          <img src="@/assets/svg/Youtube.svg" alt="Social Icons" class="cursor-pointer" />
         </div>
       </div>
-      <div class="flex justify-between pt-16">
+      <div class="flex flex-col items-start gap-y-10 flex-wrap pt-16 maxwscreensm:flex-row maxwscreensm:justify-around maxwscreensm:gap-x-4 lg:flex-nowrap lg:justify-between lg:gap-x-0 lg:gap-y-0">
         <div>
-          <p class="text-base text-white mb-5">Company Info</p>
+          <p class="text-base text-white mb-4 maxwscreensm:mb-5">Company Info</p>
           <ul class="text-linkColor">
             <li><a href="#" class="text-sm">About Us</a></li>
             <li><a href="#" class="text-sm">Carrier</a></li>
@@ -23,7 +23,7 @@
           </ul>
         </div>
         <div>
-          <p class="text-base text-white mb-5">Company Info</p>
+          <p class="text-base text-white mb-4 maxwscreensm:mb-5">Company Info</p>
           <ul class="text-linkColor">
             <li><a href="#" class="text-sm">About Us</a></li>
             <li><a href="#" class="text-sm">Carrier</a></li>
@@ -34,7 +34,7 @@
           </ul>
         </div>
         <div>
-          <p class="text-base text-white mb-5">Features</p>
+          <p class="text-base text-white mb-4 maxwscreensm:mb-5">Features</p>
           <ul class="text-linkColor">
             <li><a href="#" class="text-sm">Business Marketing</a></li>
             <li><a href="#" class="text-sm">User Analytic</a></li>
@@ -45,7 +45,7 @@
           </ul>
         </div>
         <div>
-          <p class="text-base text-white mb-5">Resources</p>
+          <p class="text-base text-white mb-4 maxwscreensm:mb-5">Resources</p>
           <ul class="text-linkColor">
             <li><a href="#" class="text-sm">IOS & Android</a></li>
             <li><a href="#" class="text-sm">Watch a Demo</a></li>
@@ -57,18 +57,19 @@
         </div>
         <div>
           <form>
-            <p class="text-base text-white mb-5">Get In Touch</p>
-            <div class="flex rounded-md overflow-hidden">
+            <p class="text-base text-white mb-4 maxwscreensm:mb-5">Get In Touch</p>
+            <div class="flex rounded-md overflow-hidden mb-1.5">
               <input
                 type="text"
                 placeholder="Full Name"
                 id="name"
-                class="block px-[18px] border-[#BDBDBD] border-[1px]"
+                class="block px-[18px] border-[#BDBDBD] border-[1px] text-black w-8/12 sm:w-auto"
               />
-              <button class="w-full bg-orangeColor px-5 text-white py-[15px]">
+              <button class="w-auto bg-orangeColor text-white p-2.5 px-2.5 sm:py-[15px] sm:px-5 sm:w-full">
                 Subscribe
               </button>
             </div>
+            <p class="text-sm text-linkColor">Lorem impsum dolor amit</p>
           </form>
         </div>
       </div>

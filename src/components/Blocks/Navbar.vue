@@ -1,5 +1,5 @@
 <template>
-  <nav class="container flex justify-between items-center py-9">
+  <nav class="container flex justify-between items-center py-9 px-2 maxwsm:px-0">
     <div>
       <p class="text-[24px] ">Ligitade</p>
     </div>
