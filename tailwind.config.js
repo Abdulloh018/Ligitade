@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        btnColor:"#D0A144",
+        orangeColor:"#D0A144",
         textColor: "#252B42",
         cardTextColor: "#737373"
       },

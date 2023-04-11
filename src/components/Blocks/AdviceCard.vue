@@ -1,16 +1,16 @@
 <template>
     <div class="bg-[#F6E4D7] rounded-[10px]">
-    <div class="flex items-center gap-[20px] px-[50px] py-[30px]">
+    <div class="flex items-center gap-[20px] px-6 py-8 max-w-sm:px-10 lg:px-12 ">
       <img :src="imgUrl" alt="" />
       <p class="text-textColor">{{ title }}</p>
     </div>
-    <div class="px-[50px] py-[30px] bg-white rounded-[10px]">
+    <div class="px-6 py-8 bg-white rounded-[10px] max-w-sm:px-10 lg:px-12">
       <p class="text-cardTextColor">{{ text1 }}</p>
       <p class="text-cardTextColor">{{ text2 }}</p>
       <p class="text-cardTextColor">{{ text3 }}</p>
       <p class="text-cardTextColor">{{ text4 }}</p>
-      <p class="text-cardTextColor">{{ text5 }}</p>
-      <a href="#" class="text-btnColor">{{ btntext }}</a>
+      <p class="text-cardTextColor mb-3">{{ text5 }}</p>
+      <a href="#" class="text-orangeColor">{{ btntext }}</a>
     </div>
   </div>
 </template>
