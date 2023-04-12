@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="flex justify-center w-full mt-[100px] mb-[50px] md:w-1/2 md:justify-end">
-        <form class="p-6 bg-white text-textColor rounded-[10px] max-w-sm:p-8 max-w-md:p-10">
+        <form class="p-6 bg-white text-textColor rounded-[10px] maxwsm:p-8 max-w-md:p-10">
           <div class="form-title mb-6 max-w-md:mb-10">
             <h4 class="text-[24px] font-bold">Book Appointment</h4>
           </div>
