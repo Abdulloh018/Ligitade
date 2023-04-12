@@ -8,30 +8,34 @@
         </div>
         <form>
           <div class="left-sideForm flex gap-y-5 flex-wrap text-black">
-            <div class="flex flex-col w-full gap-x-5 gap-y-5 sm:gap-y-0 sm:flex-row">
+            <div
+              class="flex flex-col w-full gap-x-5 gap-y-5 sm:gap-y-0 sm:flex-row"
+            >
               <input
                 type="text"
                 placeholder="Full Name"
                 id="name"
                 class="block px-[18px] py-2.5 rounded-md border-[#BDBDBD] border-[1px] w-full"
+                required
               />
               <input
-                type="text"
+                type="email"
                 placeholder="example@gmail.com"
                 id="email"
                 class="block px-[18px] py-2.5 rounded-md border-[#BDBDBD] border-[1px] w-full"
+                required
               />
             </div>
-            <div class="flex flex-col w-full gap-x-5 gap-y-5 sm:gap-y-0 sm:flex-row">
-              <select
-                name=""
-                id=""
-                class="block px-[18px] py-2.5 rounded-md border-[#BDBDBD] border-[1px] w-full text-[#BDBDBD]"
-              >
-                <option value="html">Pleace Select</option>
-                <option value="css">Select 1</option>
-                <option value="js">Select 2</option>
-              </select>
+            <div
+              class="flex flex-col w-full gap-x-5 gap-y-5 sm:gap-y-0 sm:flex-row"
+            >
+            <input
+                type="email"
+                placeholder="example@gmail.com"
+                id="email"
+                class="block px-[18px] py-2.5 rounded-md border-[#BDBDBD] border-[1px] w-full"
+                required
+              />
               <select
                 name=""
                 id=""
@@ -52,7 +56,7 @@
               ></textarea>
             </div>
             <div class="form-btn w-full sm:w-auto">
-              <button
+              <button @click="submitForm"
                 class="w-full bg-orangeColor rounded-md text-white px-10 py-[15px]"
               >
                 Book Appointment
@@ -65,8 +69,35 @@
   </section>
 </template>
 <script>
+import useValidate from "@vuelidate/core"
+import { required } from "@vuelidate/validators"
+
 export default {
   name: "ContactSection",
+  data() {
+    return {
+      v$: useValidate(),
+      name: '',
+      email: ''
+    }
+  },
+  validations() {
+    return {
+      name: { required },
+      email: { required }
+    }
+  },
+  methods: {
+    submitForm() {
+      this.v$.$validate()
+      if (!this.v$.$error) {
+        alert("Submit succesfulled")
+        window.location.reload();
+      } else {
+        alert("Form failed validation ")
+      }
+    }
+  }
 };
 </script>
 <style scoped>
@@ -76,4 +107,20 @@ export default {
   background-position: center center;
   background-size: cover;
 }
+
+input {
+  border: 3px solid white;
+  width: 90%;
+  transition: all 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid  #7ed56f;
+}
+
+input:focus:invalid {
+  border: 3px solid  #ff7730;
+}
+
 </style>

@@ -44,6 +44,7 @@
 <script>
 import useValidate from "@vuelidate/core"
 import { required } from "@vuelidate/validators"
+
 export default {
   name: "HeroSection",
   data() {
