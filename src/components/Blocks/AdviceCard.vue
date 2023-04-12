@@ -1,10 +1,10 @@
 <template>
     <div class="bg-[#F6E4D7] rounded-[10px]">
-    <div class="flex items-center gap-[20px] px-6 py-8 max-w-sm:px-10 lg:px-12 ">
+    <div class="flex items-center gap-[20px] px-6 py-8 maxWidthsm:px-10 lg:px-12 ">
       <img :src="imgUrl" alt="" />
       <p class="text-textColor">{{ title }}</p>
     </div>
-    <div class="px-6 py-8 bg-white rounded-[10px] max-w-sm:px-10 lg:px-12">
+    <div class="px-6 py-8 bg-white rounded-[10px] maxWidthsm:px-10 lg:px-12">
       <p class="text-cardTextColor">{{ text1 }}</p>
       <p class="text-cardTextColor">{{ text2 }}</p>
       <p class="text-cardTextColor">{{ text3 }}</p>

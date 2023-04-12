@@ -1,6 +1,6 @@
 <template>
   <section id="consultation" class="py-12">
-    <div class="container flex flex-col justify-between gap-5 px-6 maxwscreensm:flex-row maxwscreensm:gap-0 maxwscreensm:items-center maxwsm:px-0">
+    <div class="container flex flex-col justify-between gap-5 px-6 maxWidthScreensm:flex-row maxWidthScreensm:gap-0 maxWidthScreensm:items-center maxWidthsm:px-0">
       <div>
         <h2 class="text-textColor text-2xl mb-3">Request A Free Consultation</h2>
         <p class="text-cardTextColor text-sm">

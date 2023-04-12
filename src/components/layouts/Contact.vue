@@ -1,6 +1,6 @@
 <template>
   <section id="contact" class="contact">
-    <div class="container py-24 px-6 maxwsm:px-0">
+    <div class="container py-24 px-6 maxWidthsm:px-0">
       <div class="w-full md:w-1/2">
         <div class="title-block mb-10">
           <p class="text-2xl leading-none">Contact Us</p>

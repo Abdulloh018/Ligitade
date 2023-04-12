@@ -1,6 +1,6 @@
 <template>
-  <footer id="footer" class="bg-textColor py-20">
-    <div class="container px-6 max-w-sm:px-0">
+  <footer id="footer" class="bg-textColor">
+    <div class="container px-6 maxWidthsm:px-0 py-20">
       <div class="footer-title flex justify-between pb-16">
         <h2 class="text-2xl">Litigade</h2>
         <div class="flex gap-5">
@@ -10,9 +10,9 @@
           <img src="@/assets/svg/Youtube.svg" alt="Social Icons" class="cursor-pointer" />
         </div>
       </div>
-      <div class="flex flex-col items-start gap-y-10 flex-wrap pt-16 maxwscreensm:flex-row maxwscreensm:justify-around maxwscreensm:gap-x-4 lg:flex-nowrap lg:justify-between lg:gap-x-0 lg:gap-y-0">
+      <div class="flex flex-col items-start gap-y-10 flex-wrap pt-16 maxWidthScreensm:flex-row maxWidthScreensm:justify-around maxWidthScreensm:gap-x-4 lg:flex-nowrap lg:justify-between lg:gap-x-0 lg:gap-y-0">
         <div>
-          <p class="text-base text-white mb-4 maxwscreensm:mb-5">Company Info</p>
+          <p class="text-base text-white mb-4 maxWidthScreensm:mb-5">Company Info</p>
           <ul class="text-linkColor">
             <li><a href="#" class="text-sm">About Us</a></li>
             <li><a href="#" class="text-sm">Carrier</a></li>
@@ -23,7 +23,7 @@
           </ul>
         </div>
         <div>
-          <p class="text-base text-white mb-4 maxwscreensm:mb-5">Company Info</p>
+          <p class="text-base text-white mb-4 maxWidthScreensm:mb-5">Company Info</p>
           <ul class="text-linkColor">
             <li><a href="#" class="text-sm">About Us</a></li>
             <li><a href="#" class="text-sm">Carrier</a></li>
@@ -34,7 +34,7 @@
           </ul>
         </div>
         <div>
-          <p class="text-base text-white mb-4 maxwscreensm:mb-5">Features</p>
+          <p class="text-base text-white mb-4 maxWidthScreensm:mb-5">Features</p>
           <ul class="text-linkColor">
             <li><a href="#" class="text-sm">Business Marketing</a></li>
             <li><a href="#" class="text-sm">User Analytic</a></li>
@@ -45,7 +45,7 @@
           </ul>
         </div>
         <div>
-          <p class="text-base text-white mb-4 maxwscreensm:mb-5">Resources</p>
+          <p class="text-base text-white mb-4 maxWidthScreensm:mb-5">Resources</p>
           <ul class="text-linkColor">
             <li><a href="#" class="text-sm">IOS & Android</a></li>
             <li><a href="#" class="text-sm">Watch a Demo</a></li>
@@ -57,7 +57,7 @@
         </div>
         <div>
           <form>
-            <p class="text-base text-white mb-4 maxwscreensm:mb-5">Get In Touch</p>
+            <p class="text-base text-white mb-4 maxWidthScreensm:mb-5">Get In Touch</p>
             <div class="flex rounded-md overflow-hidden mb-1.5">
               <input
                 type="text"
@@ -74,7 +74,12 @@
         </div>
       </div>
     </div>
-  </footer>
+    <div class="bg-[#0072B5] py-7">
+      <div class="container">
+        <p class="text-center sm:text-start">Made With Love By Figmaland All Right Reserved</p>
+      </div>
+    </div>
+    </footer>
 </template>
 <script>
 export default {

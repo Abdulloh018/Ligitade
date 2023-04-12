@@ -11,11 +11,15 @@ module.exports = {
   ],
   theme: {
     screens: {
-      maxwsm: "384px",
+      maxWidthsm: "384px",
+      maxWidthmd: "448px",
       sm: "480px",
-      maxwscreensm: "640px",
+      maxWidthmd: "512px",
+      maxWidthScreensm: "640px",
       md: "768px",
       mdb: "879px",
+      maxWidth4xl: "896px",
+      maxWidth5xl: "1024px",
       lg: "977px",
       xl: "1440px",
     },

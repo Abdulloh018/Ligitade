@@ -1,14 +1,14 @@
 <template>
   <section id="clients" class="bg-[#252B42]">
     <div class="container">
-      <div class="section-title text-center  py-16 max-w-4xl:py-20">
+      <div class="section-title text-center  py-16 maxWidth4xl:py-20">
         <h2 class="text-[40px] mb-[10px]">What Clients Say</h2>
-        <p class="text-sm px-10 max-w-lg:px-20 max-w-screen-sm:px-36 max-w-4xl:px-[180px] lg:px-[300px] max-w-5xl:px-[330px]">
+        <p class="text-sm px-10 maxWidthmd:px-20 maxWidthScreensm:px-36 maxWidth4xl:px-[180px] lg:px-[300px] maxWidth5xl:px-[330px]">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
       </div>
-      <div class="flex flex-wrap justify-center gap-10 pt-10 pb-[100px] lg:flex-nowrap max-w-5xl:pt-14 px-6 max-w-sm:px-0">
+      <div class="flex flex-wrap justify-center gap-10 pt-10 pb-[100px] lg:flex-nowrap maxWidth5xl:pt-14 px-6 maxWidthsm:px-0">
         <ClientsCard v-for="card in cards" :key="card.id" :name="card.name" :text="card.text" :job="card.job" :imgUrl="card.imgUrl" :svg="card.svg"/>
       </div>
     </div>
