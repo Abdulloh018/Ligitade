@@ -15,12 +15,8 @@
   </section>
 </template>
 <script>
-import validateJs from "@/components/Blocks/validate"
 export default {
   name: "WhoWeAre",
-  compontents: {
-    validateJs
-  },
 }
 </script>
 <style>
