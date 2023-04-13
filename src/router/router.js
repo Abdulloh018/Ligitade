@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router"
-import Index from "@/components/Home/Index.vue"
-import ContactPage from "@/components/pages/ContactPage.vue"
+import Index from "@/pages/home.vue"
+import ContactPage from "@/pages/ContactPage.vue"
 
 const routes = [
   {
