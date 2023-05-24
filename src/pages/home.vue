@@ -8,6 +8,7 @@
     <ContactSection />
     <FreeConsultation />
     <FooterContent />
+    <date-component></date-component>
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import AttorneysSection from "@/components/layouts/Attorneys.vue"
 import ContactSection from "@/components/layouts/Contact.vue"
 import FreeConsultation from "@/components/layouts/Consultation.vue"
 import FooterContent from "@/components/layouts/Footer.vue"
+import DateComponent from "@/components/layouts/DateComponent.vue"
 
 export default {
   name: "IndexVue",
@@ -32,7 +34,8 @@ export default {
     AttorneysSection,
     ContactSection,
     FreeConsultation,
-    FooterContent
+    FooterContent,
+    DateComponent
   }
 }
 </script>
